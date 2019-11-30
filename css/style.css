@@ -11,12 +11,12 @@ body
     color:white;
     padding:0%;
     margin: 0%;
-   margin-block: 0em;
+    margin-block: 0em;
 }    
 
 .navbar > ul > li{
    float:left;
-   border-right:solid 2px wheat;
+   border-right:solid 2px white;
    padding: 7px;
    text-align: center;
    min-width: 7%;
@@ -64,13 +64,15 @@ img{
 }
 
 img.content{
-    width: 48%;
-    padding: 3px;     
+    max-width: 45%;
+    max-height: 100%;
+    padding: 2%;
 }
 
 img.thumbnail{
-    width: 18%;     
-    padding: 3px;
+    max-width: 20%;
+    max-height: 100%;
+    padding: 2%;
 } 
 .green-heading {
     color: black;
@@ -103,8 +105,10 @@ img.thumbnail{
     background: rgb(172, 162, 160); 
 }
 .smallbasic-hyrje {
-    border: 2px black solid;
-    background: blanchedalmond;
+    border: 2px rgb(16, 143, 54) solid;
+    background: rgb(245, 255, 242);
+    padding: 5px;
+    margin: 5px 0px;
 }    
 .smallbasic-paragraph {
     background-color: rosybrown;
