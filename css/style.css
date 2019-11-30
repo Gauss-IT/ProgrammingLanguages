@@ -1,0 +1,94 @@
+body
+{ 
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+.navbar > ul{
+    list-style:none;
+    overflow:hidden;
+    background-color: #4B8E54;
+    color:white;
+    padding:0%;
+    margin: 0%;
+   margin-block: 0em;
+}    
+
+.navbar > ul > li{
+    float:left;
+    margin:  7px;
+   border-right:solid 2px wheat;
+   padding: 7px;
+   text-align: center;
+   min-width: 7%;
+}
+.navbar > ul > li:hover
+{
+    background-color: rgb(152, 204, 152);
+}
+
+.navbar > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    width: 100%;
+}
+
+img.content{
+    width: 48%;     
+}
+
+img.thumbnail{
+    width: 18%;     
+} 
+.green-heading {
+    color: black;
+}
+.blue-heading {
+    color:black;
+}    
+.yellow-heading {
+    color: yellow;
+}        
+.red-paragraph {
+    color: black;
+}    
+
+
+
+
+#java-paragraph{
+    background-color: rosybrown;
+}    
+.bold-paragraph {
+    font-weight: 800;
+   }
+.italic-paragraph  {
+    font-style: italic;
+   }
+.java-hyrje { 
+   border: 3px black solid;
+   background: rgb(153, 130, 125);
+}
+.java-hyrje1 {
+    border: 3px black solid;
+    background: rgb(153, 130, 125); 
+}
+.smallbasic-hyrje {
+    border: 2px black solid;
+    background: blanchedalmond;
+}    
+.smallbasic-paragraph {
+    background-color: rosybrown;
+}
+.black-paragraph{
+    color: black;
+}    
+.python-hyrje {
+    border: 3px black solid;
+    background: rgb(153, 130, 125);  
+}
+.C-hyrje {
+ border: 3px black solid;
+ background: rgb(189, 167, 162); 
+}
