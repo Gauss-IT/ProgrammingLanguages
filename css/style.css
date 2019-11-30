@@ -35,11 +35,13 @@ img{
 }
 
 img.content{
-    width: 48%;     
+    width: 48%;
+    padding: 3px;     
 }
 
 img.thumbnail{
-    width: 18%;     
+    width: 17%;     
+    padding: 3px;
 } 
 .green-heading {
     color: black;
