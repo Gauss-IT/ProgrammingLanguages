@@ -14,8 +14,7 @@ body
 }    
 
 .navbar > ul > li{
-    float:left;
-    margin:  7px;
+   float:left;
    border-right:solid 2px wheat;
    padding: 7px;
    text-align: center;
