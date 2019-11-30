@@ -87,10 +87,7 @@ img.thumbnail{
     color: black;
 }    
 
-
-
-
-#java-paragraph{
+.java-paragraph{
     background-color: rosybrown;
 }    
 .bold-paragraph {
@@ -129,4 +126,4 @@ img.thumbnail{
 }
 .black-paragraph {
     color: black
-}    
+}
