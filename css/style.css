@@ -10,13 +10,13 @@ body
     background-color: #4B8E54;
     color:white;
     padding:0%;
-    margin: 0%;
+    margin-top: 4px;
     margin-block: 0em;
 }    
 
 .navbar > ul > li{
    float:left;
-   border-right:solid 2px white;
+   border-right:solid 4px white;
    padding: 7px;
    text-align: center;
    min-width: 7%;
@@ -74,56 +74,10 @@ img.thumbnail{
     max-height: 100%;
     padding: 2%;
 } 
-.green-heading {
-    color: black;
-}
-.blue-heading {
-    color:black;
-}    
-.yellow-heading {
-    color: yellow;
-}        
-.red-paragraph {
-    color: black;
-}    
 
-.java-paragraph{
-    background-color: rosybrown;
-}    
-.bold-paragraph {
-    font-weight: 800;
-   }
-.italic-paragraph  {
-    font-style: italic;
-   }
-.java-hyrje { 
-   border: 3px black solid;
-   background: rgb(153, 130, 125);
-}
-.java-hyrje1 {
-    border: 3px black solid;
-    background: rgb(172, 162, 160); 
-}
 .hyrje {
     border: 2px rgb(16, 143, 54) solid;
-    background: rgb(245, 255, 242);
+    background: rgb(251, 255, 250);
     padding: 5px;
     margin: 5px 0px;
 }    
-.smallbasic-paragraph {
-    background-color: rosybrown;
-}
-.black-paragraph{
-    color: black;
-}    
-.python-hyrje {
-    border: 3px black solid;
-    background: rgb(153, 130, 125);  
-}
-.C-hyrje {
- border: 3px black solid;
- background: rgb(189, 167, 162); 
-}
-.black-paragraph {
-    color: black
-}
