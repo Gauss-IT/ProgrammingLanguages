@@ -92,3 +92,6 @@ img.thumbnail{
  border: 3px black solid;
  background: rgb(189, 167, 162); 
 }
+.black-paragraph {
+    color: black
+}    
