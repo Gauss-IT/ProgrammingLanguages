@@ -3,6 +3,7 @@ body
      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
 }
 
+/* Navbar related css*/
 .navbar > ul{
     list-style:none;
     overflow:hidden;
@@ -29,6 +30,35 @@ body
     text-decoration: none;
     color: white;
 }
+
+/* Page list related css*/
+.pageList > ul{
+    list-style:none;
+    overflow:hidden;
+    background-color: rgb(28, 37, 85);
+    color:white;
+    padding:0%;
+    margin: 0%;
+    width: 100px;
+   margin-block: 0em;
+}    
+
+.pageList > ul > li{
+   border-bottom:solid 2px white;
+   padding: 7px;
+   text-align: center;
+   min-width: 7%;
+}
+.pageList > ul > li:hover
+{
+    background-color: rgb(152, 204, 152);
+}
+
+.pageList > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
 img{
     width: 100%;
 }
