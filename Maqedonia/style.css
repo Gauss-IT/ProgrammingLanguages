@@ -42,7 +42,7 @@ body
     box-shadow: 5px 5px 15px gray ;
   }
 .hyrje{
-  border: 4px rgb(113, 203, 245) solid;
-  padding: 5px;
-  margin: 5px 0px;
+  border: 5px rgb(113, 203, 245) solid;
+  padding: 6px;
+  margin: 5px 1px;
 }
