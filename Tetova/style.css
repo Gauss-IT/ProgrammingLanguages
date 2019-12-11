@@ -4,7 +4,7 @@ body
 }
 /* Style the element with the id "myHeader" */
 #myHeader {
-    background-color: lightblue;
+    background-color:  white;
     color: black;
     padding: 80px 0px;
     text-align: center;
@@ -19,7 +19,7 @@ body
     padding: 10px;
   } 
   .navbar{
-  background-color: rgb(110, 195, 245);    
+  background-color: rgb(37, 37, 37) ;    
   padding: 10px;
   }
  .navbar a{ 
@@ -28,21 +28,8 @@ body
     padding: 10px;
  }
 
- .flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .flex-box {
-    padding: 25px;
-    margin: 20px;
-    border: solid 2px rgb(160, 196, 216);
-    background-color: rgb(239, 239, 241);
-    border-radius: 15px;
-    box-shadow: 5px 5px 15px gray ;
-  }
 .hyrje{
-  border: 5px rgb(113, 203, 245) solid;
-  padding: 6px;
+  border: 8px rgb(37, 37, 37) solid;
+  padding: 5px;
   margin: 5px 1px;
 }
