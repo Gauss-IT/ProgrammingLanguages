@@ -80,4 +80,29 @@ img.thumbnail{
     background: rgb(251, 255, 250);
     padding: 5px;
     margin: 5px 0px;
-}    
+} 
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .flex-box {
+    padding: 25px;
+    margin: 20px;
+    width: 25%;
+    border: solid 2px rgb(28, 37, 85);
+    background-color: rgb(166, 216, 172);
+    border-radius: 15px;
+  }
+
+  .flex-box:hover{
+    padding: 25px;
+    margin: 20px;
+    border: solid 2px rgb(28, 65, 75);
+    background-color:  rgb(152, 204, 152);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px gray ;
+  }
