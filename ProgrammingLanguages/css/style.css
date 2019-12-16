@@ -92,17 +92,20 @@ img.thumbnail{
   .flex-box {
     padding: 25px;
     margin: 20px;
-    width: 25%;
+    width: 20%;
     border: solid 2px rgb(28, 37, 85);
     background-color: rgb(166, 216, 172);
     border-radius: 15px;
   }
 
   .flex-box:hover{
-    padding: 25px;
-    margin: 20px;
+    padding: 20px;
+    margin: 25px;
     border: solid 2px rgb(28, 65, 75);
     background-color:  rgb(152, 204, 152);
     border-radius: 15px;
     box-shadow: 5px 5px 15px gray ;
   }
+  .flex-box > a {background-color: black;
+    text-decoration: none;
+    color: black;}
