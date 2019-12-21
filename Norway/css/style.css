@@ -34,4 +34,6 @@ body
   margin: 4px 2px;
 }
 
- 
+img {
+  width: 100%;
+}
