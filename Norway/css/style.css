@@ -4,7 +4,7 @@ body
 }
 /* Style the element with the id "myHeader" */
 #myHeader {
-    background-color: whitesmoke;
+    background-color: rgb(221, 205, 205);
     color: black;
     padding: 110px 4px;
     text-align: center;
