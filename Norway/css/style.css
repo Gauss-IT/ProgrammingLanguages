@@ -1,10 +1,10 @@
 body
 { 
-     font-family:'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: Arial, Helvetica, sans-serif;     
 }
 /* Style the element with the id "myHeader" */
 #myHeader {
-    background-color: rgb(171, 171, 223);
+    background-color: rgb(33, 70, 133);
     color: black;
     padding: 200px 0px;
     text-align: center;
@@ -19,7 +19,7 @@ body
     text-shadow: 2px 2px #FF0000;
   } 
   .navbar{
-  background-color: rgb(80, 80, 201);    
+  background-color: rgb(61, 61, 194);    
   padding: 12px;
   ;
   }
@@ -56,5 +56,9 @@ body {
 }
 p {
   text-shadow:   3px black;
-  background-color: rgb(143, 209, 231);
 }
+body{  background-color: rgb(198, 212, 224);
+}
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
