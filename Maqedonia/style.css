@@ -3,7 +3,7 @@ body
      font-family:'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 /* Style the element with the id "myHeader" */
-#myHeader {
+#myheader {
     background-color: lightblue;
     color: black;
     padding: 85px 0px;
@@ -27,38 +27,14 @@ body
     color: white;
     padding: 10px;
  }
-
- .flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .flex-box {
-    padding: 25px;
-    margin: 20px;
-    border: solid 2px rgb(160, 196, 216);
-    background-color: rgb(208, 208, 216);
-    border-radius: 15px;
-    box-shadow: 5px 5px 15px gray ;
-  }
-  .flex-box1{
-    padding: 25px;
-    margin: 20px;
-    border: solid 2px rgb(160, 196, 216);
-    background-color: rgb(93, 226, 133);
-    border-radius: 15px;
-    box-shadow: 5px 5px 15px gray ;
-  }
-  .flex-box2{
-    padding: 25px;
-    margin: 20px;
-    border: solid 2px rgb(160, 196, 216);
-    background-color: rgb(214, 45, 45);
-    border-radius: 15px;
-    box-shadow: 5px 5px 15px gray ;
-  }
   .hyrje{
   border: 5px rgb(113, 203, 245) solid;
   padding: 6px;
   margin: 5px 1px;
+}
+element.style {
+  color: blueviolet;
+  text-decoration: none;
+  border: 50px;
+  border-color: black
 }
