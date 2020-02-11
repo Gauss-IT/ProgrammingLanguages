@@ -1,6 +1,5 @@
 body
-{ 
-     font-family:'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+{   font-family: "Times New Roman", Times, serif;
 }
 /* Style the element with the id "myHeader" */
 #myHeader {
@@ -19,7 +18,7 @@ body
     padding: 10px;
   } 
   .navbar{
-  background-color: black ;    
+  background-color: rgb(73, 66, 66) ;    
   padding: 10px;
   }
  .navbar a{ 
@@ -29,7 +28,6 @@ body
  }
 
 .hyrje{
-  border: 8px rgb(37, 37, 37) solid;
   padding: 5px;
   margin: 5px 1px;
 }
