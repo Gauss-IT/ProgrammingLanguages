@@ -63,7 +63,7 @@ body{  background-color: rgb(198, 212, 224);
   }
   .flip-box {
     background-color: transparent;
-    width: 440px;
+    width: 400px;
     height: 320px;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
