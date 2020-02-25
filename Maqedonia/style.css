@@ -26,7 +26,9 @@ body
     text-decoration: none;
     color: white;
     padding: 10px;
- }
+    color: aqua;
+    text-decoration: none;
+}
   .hyrje{
   border: 5px rgb(113, 203, 245) solid;
   padding: 6px;
