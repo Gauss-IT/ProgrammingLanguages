@@ -3,12 +3,13 @@ body
 }
 /* Style the element with the id "myHeader" */
 #myHeader {
-    background-color:  white;
+    background-color:  rgb(219, 202, 202);
     color: black;
     padding: 80px 0px;
     text-align: center;
     margin: 0px;
     vertical-align: middle;
+    
   }
   
   /* Style all elements with the class name "city" */
@@ -18,7 +19,7 @@ body
     padding: 10px;
   } 
   .navbar{
-  background-color: rgb(73, 66, 66) ;    
+  background-color: rgb(218, 202, 202) ;    
   padding: 10px;
   }
  .navbar a{ 
@@ -31,3 +32,4 @@ body
   padding: 5px;
   margin: 5px 1px;
 }
+

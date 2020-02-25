@@ -32,9 +32,3 @@ body
   padding: 6px;
   margin: 5px 1px;
 }
-element.style {
-  color: blueviolet;
-  text-decoration: none;
-  border: 50px;
-  border-color: black
-}
