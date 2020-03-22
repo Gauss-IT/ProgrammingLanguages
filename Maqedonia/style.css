@@ -4,8 +4,7 @@ body
 }
 /* Style the element with the id "myHeader" */
 #myheader {
-    background-color: lightblue;
-    color: black;
+    background-color: #e4c49b;
     padding: 85px 0px;
     text-align: center;
     margin: 6px;
@@ -19,18 +18,18 @@ body
     padding: 10px;
   } 
   .navbar{
-  background-color: rgb(110, 195, 245);    
+  background-color: #e4c49b;  
   padding: 10px;
   }
  .navbar a{ 
     text-decoration: none;
     color: white;
     padding: 10px;
-    color: aqua;
+    color:white;
     text-decoration: none;
 }
   .hyrje{
-  border: 5px rgb(113, 203, 245) solid;
+  border: 5px rgb(57, 80, 90) solid;
   padding: 6px;
   margin: 5px 1px;
 }
