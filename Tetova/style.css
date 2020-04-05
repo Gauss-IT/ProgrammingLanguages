@@ -3,7 +3,7 @@ body
 }
 /* Style the element with the id "myHeader" */
 #myHeader {
-    background-color:  rgb(85, 85, 85);
+    background-color:  rgb(253, 251, 251);
     color: black;
     padding: 100px 3px;
     text-align: center;
@@ -19,7 +19,7 @@ body
     padding: 10px;
   } 
   .navbar{
-  background-color: rgb(253, 231, 231) ;    
+  background-color: rgb(143, 132, 132) ;    
   padding: 10px;
   }
  .navbar a{ 
