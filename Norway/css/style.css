@@ -212,3 +212,27 @@ body{  background-color: rgb(198, 212, 224);
   @keyframes fade {
     from {opacity: 0}
   }
+  .icon-bar {
+    width: 32%;
+    background-color: rgb(143, 143, 143);
+    overflow: auto;
+  }
+  
+  .icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+    margin-bottom: auto;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: rgb(0, 255, 8);
+  }
