@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="script.js"></script>
+</head>
+
+
+<body>
+    <div class="hyrje">
+        <!-- A unique element -->
+        <img src="img/3.jpg" alt="Snow" width="100%">
+        <div class="navbar">
+          <div class="topnav">
+              <button class="btn">
+            <a class="active" href="index.html">Home</a>
+            <a class="active" href="gjeografia.html">Gjeografia</a>
+            <a class="active" href="historia.html">Historia</a>
+            <a class="active" href="ekonomia.html">Ekonomia</a>
+            <a class="active" href="qytete.html">Qytetet</a>
+            <a class="active"  href="about.html">About</a>
+           </div>
+              <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+
+              <ul id="myMenu">
+                <li><a href="qytete.html">Qytetet</a></li>
+                <li><a href="ekonomia.html">Ekonomia</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gjeografia.html">Gjeografia</a></li>
+                <script>
+                  function myFunction() {
+                    // Declare variables
+                    var input, filter, ul, li, a, i;
+                    input = document.getElementById("mySearch");
+                    filter = input.value.toUpperCase();
+                    ul = document.getElementById("myMenu");
+                    li = ul.getElementsByTagName("li");
+                  
+                    // Loop through all list items, and hide those who don't match the search query
+                    for (i = 0; i < li.length; i++) {
+                      a = li[i].getElementsByTagName("a")[0];
+                      if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                      } else {
+                        li[i].style.display = "none";
+                      }
+                    }
+                  }
+                  </script>
+              </ul>
+            </div>
+            <div class="chat-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
+                  <h1>Chat</h1>
+              
+                  <label for="msg"><b>Message</b></label>
+                  <textarea placeholder="Type message.." name="about" required></textarea>
+              
+                  <button type="submit" class="btn">Send</button>
+                  <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                <script>
+                  function openForm() {
+                    document.getElementById("myForm").style.display = "none";
+                  }
+                  
+                  function closeForm() {
+                    document.getElementById("myForm").style.display = "none";
+                  }
+                </script>
+                </form>
+              </div>
+         
+         
+            </body>
+
+            </html>
