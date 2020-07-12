@@ -3,19 +3,16 @@
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<div class="hyrje">
-
   <body>
     <!-- A unique element -->
-    <div class="myHeader">
-      <img src="img/photo1.jpg" width="100%" height="auto%">
-    <div class="navbar">
-      <a href=index.html>Home</a>
-      <a href=historia.html>Historia</a>
-      <a href=gjeografia.html>Gjeografia</a>
+      <img src="img/photo1.jpg" width="100%" height="79%">
+      <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a class="active" href="historia.html">Historia</a>
+      <a class="active" href="gjeografia.html">Gjeografia</a>
     </div>
-    <h1>Gjeografia e Republikës së Maqedonisë</h1>
-    <p class="grey-paragraph">
+    <button class="accordion">Gjeografia e Republikës së Maqedonisë</button>
+    <div class="panel">
       Republika e Maqedonisë ndodhet në pjesën juglindore të Evropës, kufizohet me Kosovën, Serbinë dhe Greqinë,
       Shqipërinë e Bullgarinë. Sipërfaqja e përgjithshme e IRJ Maqedonisë është 25,713 km2, ky shtet shtrihet në
       koordinatat gjeografike 41 50 V, 22 00 L ku 24,856 km2 të kësaj sipërfaqeje janë tokë ndërsa 477 km2 ujë.
@@ -36,8 +33,27 @@
      <br>  të tjera - 1.04% </br>
      <br>
      </div>
+    </div>
+
+    <script>
+    var acc = document.getElementsByClassName("accordiona");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
      <img src="img/Korab 1.jpg" width="43%">
-     <h2>Pozita gjeografike</h2>
+     <button class="accordion">Pozita gjeografike</button>
+     <div class="panel">
       Vendosur në zemër të Gadishullit Ballkanik, kufijtë e tokës me Serbinë dhe Kosovën në veri, Bullgaria në lindje,
       Greqinë në jug dhe Shqipërinë në perëndim. Dy shtetet fqinje të Republikës së Maqedonisë i përkasin BE (Greqia dhe
       Bullgaria), e cila kontribuon për vendndodhjen e saj të favorshme gjeo-politike. Republika e Maqedonisë nuk ka
@@ -52,31 +68,22 @@
       • Liqeni i cili është i ndarë në mes Republikës së Maqedonisë (2/3) dhe Shqipëria (1/3)
       • Liqeni i Prespës është e ndarë në mes Republikës së Maqedonisë, Shqipërisë dhe Greqisë
       • Dojran Liqeni është i ndarë në mes Maqedonisë dhe Greqisë</p>
+      
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
     <img src="img/geography.jpg"  width="37%" >
-    <h1>Klima</h1> Klima në Maqedoni ndihet ndikimet me e klimës mesdhetare,të cilat i karakterizon vera e nxehtë dhe e
-    thatë,dimri i lagësht dhe i ftohtë. Maqedonia qëndron në kryqëzimin e dy zonave kryesore klimatike, zona e Mesdheut
-    dhe ajo kontinentale.
-    Periodikisht, thyen ajrin përmes barrierave malore në veri dhe në jug, duke sjellë në mënyrë dramatike modelet e
-    kundërta të motit; shembull është era e ftohtë veriore njohur si "vardarec".
-    Kjo klimë karakterizohet me verë të gjatë dhe të thatë dhe dimër të butë dhe me shi.Pranvera dhe vjeshta nuk janë
-    shumë të dukshme. Rënia është më e gjatë dhe e ngrohtë dhe në pranverë është më e shkurt dhe më ftohtë. Temperatura
-    mesatare në muajin më të nxehtë - Korrik, është rreth 25 ° C. Demir Kapi është qyteti me i nxehtë në vend me një
-    temperaturë të verës që arrin deri në 40 ° C. Temperatura mesatare në muajin më të ftohtë - Janar, është relativisht
-    e lartë me rreth 3 ° C.
-    Klima malore në Maqedoni:
-    Është gjetur në rajonet e larta malore të Maqedonisë. Ajo karakterizohet me dimra të gjatë dhe me dëborë dhe verë të
-    shkurtër dhe të ftohtë.Pranvera është më ftohtë se vjeshta.
-    Temperatura në klimën malore zvogëlohet me rritjen e lartësi. Kjo është arsyeja pse temperaturat më të ulëta janë
-    gjetur në pjesët më të larta të maleve.Sar Planina, për shembull, ka temperatura mesatare negative në katër muajt e
-    vitit, dhe kjo është gjithashtu e ngjashme me malet e tjera të larta.
-    Muajt e ftohtë janë janari dhe shkurti, dhe të ngrohta korriku dhe gushti. Megjithatë, edhe në muajt e ngrohta mund
-    të ketë ndryshime të mëdha të motit dhe madje edhe deborë.
-    Sa i përket reshjeve, rajonet nga klimat malore ka reshje më të lartë vjetore në vend dhe sa më shumë shi e reshje
-    bore si 1000 mm. Kur shkoni në lindje dhe në pjesën lindore të vendit reshjet zvogëlohen në 600-700 mm. Periudha
-    mesatare që bora qëndron në male është nga nëntori në prill, por në male të larta bora mund të qëndrojnë deri në
-    fund të majit.
-    Klima butë kontinentale në Maqedoni
-    Më karakteristike për Republikën e Maqedonisë, pasi ajo mbulon zonën më të madhe të Maqedonisë. Ajo karakterizohet
-    me dimër relativisht të ftohtë dhe të lagësht dhe verë të ngrohtë dhe të thatë.Pranvera është më ftohtë se vjeshta.
-    </p>
-    <img src="img/123.jpg" alt="" width="40%">
+  

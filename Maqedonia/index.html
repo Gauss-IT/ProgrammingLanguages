@@ -3,19 +3,20 @@
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<div class="hyrje">
 
   <body>
     <!-- A unique element -->
-    <dic class="myHeader">
-      <img src="img/h.jpg" width="100%" height="85%">
-    <div class="navbar">
-      <a href=index.html>Home</a>
-      <a href=historia.html>Historia</a>
-      <a href=gjeografia.html>Gjeografia</a>
+   
+      <img src="img/h.jpg" width="100%" height="80%">
+      <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a class="active" href="historia.html">Historia</a>
+        <a class="active" href="gjeografia.html">Gjeografia</a>
     </div>
-    <h1>Maqedonia e Veriut</h1>
-    <p class="grey-paragraph"> Maqedonia e Veriut,[c] zyrtarisht Republika e Maqedonisë së Veriut, [d] është një
+    <div>
+    <button class="accordion">Maqedonia e Veriut</button>
+    <div class="panel">
+    <p> Maqedonia e Veriut,[c] zyrtarisht Republika e Maqedonisë së Veriut, [d] është një
       vend
       në
       Gadishullin Ballkanik në Evropën Juglindore. Shtë një nga shtetet pasardhëse të Jugosllavisë, nga e cila ajo
@@ -45,7 +46,29 @@
       Ballkanike
       të
       1912 dhe 1913, territori modern i Maqedonisë së Veriut ra nën Rregulli serb. </p>
+    </div>
+
+    <script>
+    var acc = document.getElementsByClassName("accordion1");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+     <div>
+  
      <img src="img/33.jpg" width="30%">
+     <button class="accordion">Gjatë Luftës</button>
+     <div class="panel">
      <p>Gjatë Luftës së Parë Botërore (1915-1918) ajo u sundua nga Bullgaria, por pas përfundimit të luftës, ajo u
       kthye
       nën
@@ -72,9 +95,26 @@
       sigurim shoqëror, një sistem universal të kujdesit shëndetësor dhe një arsim fillor dhe të mesëm pa shkollim
       për
       qytetarët e saj..</p>
+    </div>
+
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+     <div>
     <!-- Multiple similar elements -->
-    <h2 class="black"></h2>
-    <p></p>
     <img src="img/lake.jpg" alt="" width="650px">
   </body>
 

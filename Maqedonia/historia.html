@@ -4,34 +4,18 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
-<div class="hyrje">
+
 </body>
     <!-- A unique element -->
-    <dic class="myHeader">
-      <img src="img/ff.jpg" width="100%" height="90%">
-    <div class="navbar">
-      <a href=index.html>Home</a>
-      <a href=historia.html>Historia</a>
-      <a href=gjeografia.html>Gjeografia</a>
-
-    </div>
-    <div class="flex-container">
-      <div class="flex-box2">
-        <h2>Informata</h2>
-        <p>Disa informata</p>
-      </div>
-      <div class="flex-box2">
-        <h2>Informata</h2>
-        <p>Disa informata</p>
-      </div>
-      <div class="flex-box2">
-        <h2>Informata</h2>
-        <p>Disa informata</p>
-      </div>
-    </div>
-
-    <h1>Maqedonia antike</h1>
-    <p class="grey-paragraph"> Maqedon ose Maqedonia,ishte emri i mbretërisë që shtrihej në pjesën veriore të Greqisë
+      <img src="img/ff.jpg" width="100%" height="80%">
+      <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a class="active" href="historia.html">Historia</a>
+        <a class="active" href="gjeografia.html">Gjeografia</a>
+   </div>
+   <button class="accordion">Maqedonia e Antike</button>
+   <div class="panel"> 
+    <p> Maqedon ose Maqedonia,ishte emri i mbretërisë që shtrihej në pjesën veriore të Greqisë
       antike, e kufizuar me mbretërinë e Epirit gjer në perëndim dhe me Trakinë në lindje.Maqedonia antike ekzistoi që
       nga viti 800 p.e.s. e gjer në vitin 146 p.e.s.. Për një periudhë shumë të shkurtër u bë shteti më i fuqishëm në
       Lindjen e Afërt antike, pasiqë Leka i Madh pushtoi pjesën e madhe të botës së njohur duke inauguruar Periudhën
@@ -48,8 +32,27 @@
       ish republikën jugosllave të Maqedonisë.
       Edhe pse të dy peisazhet janë të ndryshme, ata ndajnë një klimë kontinentale me dimër të ftohtë. Kjo klimë e bën
       bimësinë maqedonase të ndryshme nga pjesa tjetër e rajonit të Egjeut.</p>
+    </div>
+
+    <script>
+    var acc = document.getElementsByClassName("accordiona");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
       <img src="img/111.jpg" width="35%">
-      <h1>Maqedonia e hershme</h1>
+      <button class="accordion">Maqedonia e hershme</button>
+      <div class="panel"> 
     <p>Historiani parë të përmend Maqedoninë në punën e tij është Herodotus, por vetëm shkurt dhe në mënyrë të
       konfuzuar. Ai nuk thotë asgjë për popullin e saj, as për gjeografinë e mbretërisë, dhe historia e tij për
       origjinën e monarkisë është një përrallë e trilluar. Nëse duam të besojmë versionin e tij, i bie që mbretët
@@ -63,4 +66,22 @@
       ai shtrihej në ç’farë është sot Shqipëria qëndrore dhe Republika Maqedone perëndimore, atëherë,banuar tërësisht
       nga Shqip-folës. Si i tillë ai kufizohej nga Adriatiku në perëndim, Epirotët në jug, ‘Illyri proprie dicti’ në
       veri dhe Paeonianët në lindje.</p>
+    </div>
+
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
     <img src="img/Skopje-North-Macedonia-7.jpg" width="35%">

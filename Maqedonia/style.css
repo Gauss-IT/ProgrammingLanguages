@@ -38,3 +38,57 @@ body
   padding: 6px;
   margin: 5px 1px;
 }
+.topnav {
+  overflow: hidden;
+  text-align: center;
+  background-color: #ffffff;
+  width: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+ vertical-align: middle;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px 18px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+.topnav a.active {
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+.accordion {
+  background-color: rgb(212, 212, 212);
+  color: rgb(83, 82, 82);
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: rgb(255, 255, 255); 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
