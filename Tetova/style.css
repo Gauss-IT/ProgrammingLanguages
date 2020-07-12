@@ -3,9 +3,9 @@ body
 }
 /* Style the element with the id "myHeader" */
 #myHeader {
-    background-color:  rgb(253, 251, 251);
+    background-color:  rgba(158, 157, 157, 0.479);
     color: black;
-    padding: 100px 3px;
+    padding: 130px 1px;
     text-align: center;
     margin: 0px;
     vertical-align: middle;
@@ -18,10 +18,7 @@ body
     color: white;
     padding: 10px;
   } 
-  .navbar{
-  background-color: rgb(143, 132, 132) ;    
-  padding: 10px;
-  }
+
  .navbar a{ 
     text-decoration: none;
     color: rgb(24, 20, 20);
@@ -32,4 +29,38 @@ body
   padding: 5px;
   margin: 5px 1px;
 }
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 15%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 1100px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
 

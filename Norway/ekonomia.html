@@ -28,7 +28,8 @@
     <a href="#"><i class="fa fa-globe"></i></a>
     <a href="#"><i class="fa fa-trash"></i></a>
   </div>
-        <h1>Ekonomia Norvegjeze</h1>
+  <button class="accordion">Ekonomia Norvegjeze</button>
+     <div class="panel"> 
         Norvegjia është një ndër shtetet me të ardhura më të larta për banorë në botë, për shkak të burimeve
         natyrore të naftës. Një ndër eksportuesit më të mëdhenj të naftës si sasi e përgjithshme dhe për banorë. Të
         ardhurat nga nafta që nuk përdoren vendosen në një fond që do të përdoret në të ardhmen për pagimin e
@@ -44,8 +45,27 @@
         e Oslos do të ishte e katërta më e pasur në BE pas qendrës së Londrës, Brukselit dhe Luksemburgut. Oslo
         gjithashtu është një nga qytetet më të shtrenjta në botë. Sipas një raporti të pegatitur nga banka zvicerane
         UBS në 2006, Londra dhe Oslo ishin qytetet më të shtrenjta në botë.</p> 
+      </div>
+      <script>
+            var acc = document.getElementsByClassName("accordion1");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+        </script>       
+        </div>
         <img src="img/norway2.png" width="30%">
-        <h4>Norvegjia si shetet i pasur</h4>
+        <button class="accordion">Norvegjia si shetet i pasur</button>
+        <div class="panel"> 
         <p>Norvegjia është një nga vendet më të pasura në botë. Pasuria e saj ishte ndërtuar në anën e pasme të burimeve
             natyrore, përfshirë naftën dhe gazin, hidrocentralet dhe peshqit dhe mbështetej nga industria e zhvilluar e
             transportit. Përbërësit e PBB-së në anën e shpenzimeve: konsumi i familjeve (41 përqind), formimi i
@@ -66,6 +86,23 @@
             pritjet e tregut prej 0.8 përqind. Shkalla e rritjes së PBB-së në Norvegji ishte mesatarisht 0.62 përqind
             nga 1978 deri në 2019, duke arritur një lartësi gjithsej 4 përqind në tremujorin e katërt të 1994 dhe një
             rekord të ulët prej -2.60 përqind në tremujorin e tretë të 1987. </p>
+         </div>
+         <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+                
+                for (i = 0; i < acc.length; i++) {
+                  acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                      panel.style.display = "none";
+                    } else {
+                      panel.style.display = "block";
+                    }
+                  });
+                }
+                </script>
         <img src="img/norway-2017.png" width="50%">
         <h1>3D Flip Box </h1>
         <div class="flip-box">

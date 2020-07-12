@@ -30,8 +30,9 @@
     <a href="#"><i class="fa fa-globe"></i></a>
     <a href="#"><i class="fa fa-trash"></i></a>
   </div>
-        <h1>Gjeografia</h1>
-
+     
+        <button class="accordion">Gjeografia</button>
+        <div class="panel"> 
         <p class="p"> Norvegjia është një vend i vendosur në Evropën Veriore në pjesët veriore dhe perëndimore të
             Gadishullit
             Skandinav. Pjesa më e madhe e vendit kufizohet me ujin, përfshirë hyrjen e Skagerrakut në jug, Detin e
@@ -56,7 +57,27 @@
             Veriut.
             Gjeologët pohojnë se të gjitha këto formuan një gamë të vetme para shpërbërjes së superkontinentit antik
             Pangea.</p>
+        </div>
+            <script>
+                var acc = document.getElementsByClassName("accordiona");
+                var i;
+                
+                for (i = 0; i < acc.length; i++) {
+                  acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                      panel.style.display = "none";
+                    } else {
+                      panel.style.display = "block";
+                    }
+                  });
+                }
+                </script> 
+                </div>
         <img src="img/earth-map-norway.png" alt="" width="50%">
+        <button class="accordion">Koordinatat Gjeografike</button>
+        <div class="panel"> 
         <p>Koordinatat gjeografike: 62 ° N 10 ° E
             Referencat e hartave: Evropë
             Sipërfaqja:
@@ -125,8 +146,27 @@
             është
             ndër tokat
             më produktive bujqësore në vend.</p>
+        </div>
+        <script>
+            var acc = document.getElementsByClassName("accordion1");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+            </script> 
+            </div>
             <img src="img/norway.jpg" alt="" width="80%" style="margin-bottom: 10px;">
-          <h2>Relievi dhe Klima</h2>
+            <button class="accordion">Relievi dhe Klima</button>
+              <div class="panel"> 
                     <p> Klima e Norvegjisë është klimë bregdetare oqeanike përgjatë bregdetit dhe kryesisht e ftohtë dhe
                         e lagësht si në dimër dhe në verë.
                         Relievi : Pjesa më e madhe e relievit të Norvegjisë është terren i vrazhdë dhe malorë, përgjatë
@@ -142,6 +182,24 @@
                         amtare (3,419 km) dhe ë gjitha ishujt e mëdha (2,413 km) , ishujt e vegjël, ujdhesat dhe
                         siujdhesat që i takojnë asaj (16,093 km). Kufiri tokësorë është 2,551 km i gjatë dhe e ndanë
                         atë nga Rusia (196 km), Finlanda (736 km) dhe Suedia (1,619 km).</p>
+                    </div>
+                    <script>
+                        var acc = document.getElementsByClassName("accordion");
+                        var i;
+                        
+                        for (i = 0; i < acc.length; i++) {
+                          acc[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var panel = this.nextElementSibling;
+                            if (panel.style.display === "block") {
+                              panel.style.display = "none";
+                            } else {
+                              panel.style.display = "block";
+                            }
+                          });
+                        }
+                    </script>       
+                    </div>
                         <video width="70%"  controls>
                             <source src="img/1.mp4" type="video/mp4">
                             <source src="img/1.mp4" type="video/">

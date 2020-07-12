@@ -16,66 +16,211 @@
         <div class="navbar">
             <div class="topnav">
                 <button class="btn">
-              <a class="active" href="index.html">Home</a>
-              <a class="active" href="gjeografia.html">Gjeografia</a>
-              <a class="active" href="historia.html">Historia</a>
-              <a class="active" href="ekonomia.html">Ekonomia</a>
-              <a class="active" href="qytete.html">Qytetet</a>
-              <a class="active"  href="about.html">About</a>
-             </div>
-                    <!-- Add icon library -->
-<div class="icon-bar">
-    <a class="active" href="#"><i class="fa fa-home"></i></a>
-    <a href="#"><i class="fa fa-search"></i></a>
-    <a href="#"><i class="fa fa-envelope"></i></a>
-    <a href="#"><i class="fa fa-globe"></i></a>
-    <a href="#"><i class="fa fa-trash"></i></a>
-  </div>
-        <div class="a">
-            <h1>Qytetet</h1>
-            <p>Qytetet e Norvegjisë janë pak më ndryshe nga shumë vende të tjera. Le të hedhim një vështrim të thelluar
-                në gjithçka që mund të dëshironi të dini për qytetet më të mëdha Norvegjeze.
-                Kur bëhet fjalë për Norvegjinë, qendra e vëmendjes ka tendencë të bjerë në fijet e bukura. Në rast se
-                nuk arrijnë, atëherë janë vargmalet malore ose dritat veriore që vallëzojnë në veri. Cilindo mënyrë të
-                shikoni, Norvegjia rurale rezulton e madhe. Sidoqoftë, shumica e popullsisë së Norvegjisë harxhon të
-                jetojë dhe të punojë në zona urbane. Le të hedhim një vështrim se si janë qytetet më të mëdha Norvegjeze
-                në të vërtetë...</p>
-            <img src="img/citys.jpg" width="50%">
+                    <a class="active" href="index.html">Home</a>
+                    <a class="active" href="gjeografia.html">Gjeografia</a>
+                    <a class="active" href="historia.html">Historia</a>
+                    <a class="active" href="ekonomia.html">Ekonomia</a>
+                    <a class="active" href="qytete.html">Qytetet</a>
+                    <a class="active" href="about.html">About</a>
+            </div>
+            <!-- Add icon library -->
+            <div class="icon-bar">
+                <a class="active" href="#"><i class="fa fa-home"></i></a>
+                <a href="#"><i class="fa fa-search"></i></a>
+                <a href="#"><i class="fa fa-envelope"></i></a>
+                <a href="#"><i class="fa fa-globe"></i></a>
+                <a href="#"><i class="fa fa-trash"></i></a>
+            </div>
+            <div class="a">
+                <button class="accordion">Qytetet</button>
+                <div class="panel">
+                    <p>Qytetet e Norvegjisë janë pak më ndryshe nga shumë vende të tjera. Le të hedhim një vështrim të
+                        thelluar
+                        në gjithçka që mund të dëshironi të dini për qytetet më të mëdha Norvegjeze.
+                        Kur bëhet fjalë për Norvegjinë, qendra e vëmendjes ka tendencë të bjerë në fijet e bukura. Në
+                        rast se
+                        nuk arrijnë, atëherë janë vargmalet malore ose dritat veriore që vallëzojnë në veri. Cilindo
+                        mënyrë të
+                        shikoni, Norvegjia rurale rezulton e madhe. Sidoqoftë, shumica e popullsisë së Norvegjisë
+                        harxhon të
+                        jetojë dhe të punojë në zona urbane. Le të hedhim një vështrim se si janë qytetet më të mëdha
+                        Norvegjeze
+                        në të vërtetë... Më poshtë është një listë e qyteteve dhe qyteteve në Norvegji. Fjala Norvegjeze
+                        për qytet ose qytet është afër. Qytetet ishin kategorizuar më parë si kjøpstad (qytet i tregut)
+                        ose me baza (port i vogël), [1] secila me të drejta të veçanta. Të drejtat e veçanta tregtare
+                        për qytetet u shfuqizuan në 1857, dhe klasifikimi u tërhoq plotësisht në 1952 dhe u zëvendësua
+                        nga klasifikimi i thjeshtë nga.</p>
+                </div>
+                <script>
+                    var acc = document.getElementsByClassName("accordion1");
+                    var i;
 
-            <h1>Oslo</h1>
-            <p>Kryeqyteti i Norvegjisë, Oslo është ndalesa kryesore për jetesën urbane në Norvegji. Duke qenë qendra
-                kryesore e transportit në vend, nëse po vizitoni ose lëvizni këtu shanset, do të vendosni këmbë në Oslo
-                të paktën në një pjesë të udhëtimit tuaj</p>
-            <img src="img/111.jpg" width="50%">
-            <h2>Bergen</h2>
-            <p>Bergen eshte Një destinacion jashtëzakonisht i njohur për udhëtarët, ky qytet bregdetar perëndimor është
-                i dyti më i madh në Norvegji. Ajo ka një vibe shumë të ndryshme nga kryeqyteti. Një nga arsyet është
-                popullsia e saj relativisht e vogël.
+                    for (i = 0; i < acc.length; i++) {
+                        acc[i].addEventListener("click", function () {
+                            this.classList.toggle("active");
+                            var panel = this.nextElementSibling;
+                            if (panel.style.display === "block") {
+                                panel.style.display = "none";
+                            } else {
+                                panel.style.display = "block";
+                            }
+                        });
+                    }
+                </script>
+                <img src="img/citys.jpg" width="50%">
+                <button class="accordion">Oslo</button>
+                <div class="panel">
 
-                Pavarësisht sesi turmat turistike ndonjëherë e bëjnë atë të ndjehet, popullsia e Bergenit është vetëm
-                280,000. Edhe kur përfshihet zona më e gjerë metropolitane, numri i 420,000 është ende i vogël në
-                shkallë botërore.</p>
-            <img src="img/Bergen-Norway-feature.jpg" width="50%">
-            <h1>Stavanger</h1>
-            <p>Stavanger eshte Bregu perëndimor është bregdeti më i mirë; Stavanger shton një numër tjetër për numrin e
-                qyteteve të mëdha Norvegjeze të vendosura në anën e majtë të vendit. Një ish-Kryeqytet i Evropës i
-                Kulturës, Stavanger krenohet me gjëra të mëdha si brenda dhe jashtë qytetit. Arkitektura klasike
-                Norvegjeze, jeta e gjallë e natës, ushqimi i mahnitshëm, ju e vini emrin dhe Stavanger e ka atë.
-                Një qytet universitar, Stavanger është shtëpia e disa universiteteve dhe institucioneve kërkimore. Kjo
-                reflektohet edhe në atmosferën urbane përreth qytetit ku gjithmonë ndodh diçka.</p>
-            <img src="img/1-aerial-shot-of-stavanger-city-sindre-ellingsen.jpg" width="50%">
-            <h1>Trondheim</h1>
-            <p>Trondheim është një qytet i madh i vogël që qëndron shumë keq në mes të Norvegjisë. Me një popullsi pak
-                nën 200,000 shenjën, Trondheim ofron një ekuilibër të madh të jetës së qytetit me një ndjenjë më të
-                qetë.Shtëpia e një prej institucioneve më të mëdha arsimore të Norvegjisë, Universiteti Norvegjez i
-                Shkencave dhe Teknologjisë (NTNU), Trondheim është shtëpi për disa mijëra studentë ndërkombëtarë në çdo
-                kohë. Me një popullsi kaq të madhe studentore vjen një skenë çuditërisht e shumëllojshme e ngrënies dhe
-                e jetës së natës.</p>
-            <img src="img/Nidelva_utløp_Trondheim.jpg" width="50%">
-            <h1>Tromsø</h1>
-            <p>Qyteti më verior në këtë listë, Tromsø është në anën më të vogël të asaj që shumica e njerëzve do ta
-                konsideronin një qytet. Megjithë një popullsi prej nën 100,000 banorë, Tromsø ende arrin të jetë një
-                destinacion fantastik urban. Museums and beautiful architecture are found in abundance in Tromsø, but
-                most of what the city has to offer lies outdoors. Surrounded by mountains, woodlands, and tundra, Tromsø
-                is a nature and adventure lover’s paradise, pairing the best of city life with easy access to nature.</p>
-            <img src="img/111.jpg2.jpg" width="50%">
+                    <p>Kryeqyteti i Norvegjisë, Oslo është ndalesa kryesore për jetesën urbane në Norvegji. Duke qenë
+                        qendra
+                        kryesore e transportit në vend, nëse po vizitoni ose lëvizni këtu shanset, do të vendosni këmbë
+                        në
+                        Oslo
+                        të paktën në një pjesë të udhëtimit tuaj Oslo është një qendër e rëndësishme e diturisë detare
+                        në
+                        Europë dhe është baza e afërsisht 980 kompanive dhe 8.500 punonjësve të industrisë detare midis
+                        të
+                        cilave janë disa nga kompanitë më të mëdha në botë të tregtisë detare dhe sigurimeve. Porti i
+                        Oslos
+                        eshte porti më i madh në Norvegji për sasi mallrash dhe për pasagjerë. Afërsisht 6.000 anije
+                        shërbehen nga ky port cdo vit, që përbëjne 6 milion tonë kargo dhe mbi 5 milion pasagjerë.
+                        Prodhimi
+                        total bruto i Oslos në vitin 2003 ishte 33.876 miliard Euro që përbën 17% të prodhimit bruto të
+                        Norvegjisë. Rajoni reth Oslos është nga më të pasurit në Europë me një prodhim bruto për kokë
+                        prej
+                        49.465 Euro</p>
+                </div>
+                <script>
+                    var acc = document.getElementsByClassName("accordiona");
+                    var i;
+
+                    for (i = 0; i < acc.length; i++) {
+                        acc[i].addEventListener("click", function () {
+                            this.classList.toggle("active");
+                            var panel = this.nextElementSibling;
+                            if (panel.style.display === "block") {
+                                panel.style.display = "none";
+                            } else {
+                                panel.style.display = "block";
+                            }
+                        });
+                    }
+                </script>
+                <img src="img/111.jpg" width="50%">
+                <button class="accordion">Bergen</button>
+                <div class="panel">
+                    <p>Bergen eshte Një destinacion jashtëzakonisht i njohur për udhëtarët, ky qytet bregdetar
+                        perëndimor
+                        është
+                        i dyti më i madh në Norvegji. Ajo ka një vibe shumë të ndryshme nga kryeqyteti. Një nga arsyet
+                        është
+                        popullsia e saj relativisht e vogël.
+
+                        Pavarësisht sesi turmat turistike ndonjëherë e bëjnë atë të ndjehet, popullsia e Bergenit është
+                        vetëm
+                        280,000. Edhe kur përfshihet zona më e gjerë metropolitane, numri i 420,000 është ende i vogël
+                        në
+                        shkallë botërore.</p>
+                </div>
+                <script>
+                    var acc = document.getElementsByClassName("accordion,");
+                    var i;
+
+                    for (i = 0; i < acc.length; i++) {
+                        acc[i].addEventListener("click", function () {
+                            this.classList.toggle("active");
+                            var panel = this.nextElementSibling;
+                            if (panel.style.display === "block") {
+                                panel.style.display = "none";
+                            } else {
+                                panel.style.display = "block";
+                            }
+                        });
+                    }
+                </script>
+                <img src="img/Bergen-Norway-feature.jpg" width="50%">
+                <button class="accordion">Stavanger</button>
+                <div class="panel">
+                    <p>Stavanger eshte Bregu perëndimor është bregdeti më i mirë; Stavanger shton një numër tjetër për
+                        numrin e
+                        qyteteve të mëdha Norvegjeze të vendosura në anën e majtë të vendit. Një ish-Kryeqytet i Evropës
+                        i
+                        Kulturës, Stavanger krenohet me gjëra të mëdha si brenda dhe jashtë qytetit. Arkitektura klasike
+                        Norvegjeze, jeta e gjallë e natës, ushqimi i mahnitshëm, ju e vini emrin dhe Stavanger e ka atë.
+                        Një qytet universitar, Stavanger është shtëpia e disa universiteteve dhe institucioneve
+                        kërkimore.
+                        Kjo
+                        reflektohet edhe në atmosferën urbane përreth qytetit ku gjithmonë ndodh diçka.</p>
+                </div>
+                <script>
+                    var acc = document.getElementsByClassName("accordion/");
+                    var i;
+
+                    for (i = 0; i < acc.length; i++) {
+                        acc[i].addEventListener("click", function () {
+                            this.classList.toggle("active");
+                            var panel = this.nextElementSibling;
+                            if (panel.style.display === "block") {
+                                panel.style.display = "none";
+                            } else {
+                                panel.style.display = "block";
+                            }
+                        });
+                    }
+                </script>
+                <img src="img/1-aerial-shot-of-stavanger-city-sindre-ellingsen.jpg" width="50%">
+                <button class="accordion">Trondheim</button>
+                <div class="panel">
+                <p>Trondheim është një qytet i madh i vogël që qëndron shumë keq në mes të Norvegjisë. Me një popullsi
+                    pak
+                    nën 200,000 shenjën, Trondheim ofron një ekuilibër të madh të jetës së qytetit me një ndjenjë më të
+                    qetë.Shtëpia e një prej institucioneve më të mëdha arsimore të Norvegjisë, Universiteti Norvegjez i
+                    Shkencave dhe Teknologjisë (NTNU), Trondheim është shtëpi për disa mijëra studentë ndërkombëtarë në
+                    çdo
+                    kohë. Me një popullsi kaq të madhe studentore vjen një skenë çuditërisht e shumëllojshme e ngrënies
+                    dhe
+                    e jetës së natës.</p>
+                </div>
+                <script>
+                    var acc = document.getElementsByClassName("accordion`");
+                    var i;
+
+                    for (i = 0; i < acc.length; i++) {
+                        acc[i].addEventListener("click", function () {
+                            this.classList.toggle("active");
+                            var panel = this.nextElementSibling;
+                            if (panel.style.display === "block") {
+                                panel.style.display = "none";
+                            } else {
+                                panel.style.display = "block";
+                            }
+                        });
+                    }
+                </script>
+                <img src="img/Nidelva_utløp_Trondheim.jpg" width="50%">
+                <button class="accordion">Tromsø</button>
+                <div class="panel">
+                <p>Qyteti më verior në këtë listë, Tromsø është në anën më të vogël të asaj që shumica e njerëzve do ta
+                    konsideronin një qytet. Megjithë një popullsi prej nën 100,000 banorë, Tromsø ende arrin të jetë një
+                    destinacion fantastik urban. Muzetë dhe arkitektura e bukur gjenden me bollëk në Tromsø, por shumica
+                    e asaj që qyteti ka për të ofruar qëndron jashtë. Rrethuar nga male, pyje dhe tundra, Tromsø është
+                    një parajsë e një dashamirësi të natyrës dhe aventurierëve, duke bashkuar më të mirën e jetës së
+                    qytetit me qasje të lehtë në natyrë.</p>
+                </div>
+                <script>
+                    var acc = document.getElementsByClassName("accordion");
+                    var i;
+
+                    for (i = 0; i < acc.length; i++) {
+                        acc[i].addEventListener("click", function () {
+                            this.classList.toggle("active");
+                            var panel = this.nextElementSibling;
+                            if (panel.style.display === "block") {
+                                panel.style.display = "none";
+                            } else {
+                                panel.style.display = "block";
+                            }
+                        });
+                    }
+                </script>
+                    <img src="img/111.jpg2.jpg" width="50%">

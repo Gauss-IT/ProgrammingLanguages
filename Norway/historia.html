@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/js" href="script.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -20,7 +21,6 @@
               <a class="active" href="qytete.html">Qytetet</a>
               <a class="active"  href="about.html">About</a>
              </div>
-        </div>
                     <!-- Add icon library -->
 <div class="icon-bar">
     <a class="active" href="#"><i class="fa fa-home"></i></a>
@@ -29,8 +29,10 @@
     <a href="#"><i class="fa fa-globe"></i></a>
     <a href="#"><i class="fa fa-trash"></i></a>
   </div>
-        <h1>Historia</h1>
-        <p>Norvegjezët janë pasardhës të vikingëve, një popullsi skandinave që luajti një rol shumë të rëndësishëm në
+
+  <button class="accordion">Section 1</button>
+  <div class="panel">
+    <p>Norvegjezët janë pasardhës të vikingëve, një popullsi skandinave që luajti një rol shumë të rëndësishëm në
             historinë
             europiane mes viteve 800 dhe 1100. Gjatë periudhës vikinge, krahinat që sot janë pjesë e Norvegjisë, filluan
             të
@@ -38,9 +40,28 @@
             perëndimore të Norvegjisë pas betejës së Hafrsfjord-it, në vitin 880, dhe themeloi mbretërinë e tij me
             qendër në
             Avaldsnes në Karmøy.</p>
+     
+            <script>
+    var acc = document.getElementsByClassName("accordion1");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script> 
+    </div>
         <img src="img/vikings.jpg" width="42%">
         <img src="img/harald-fairhair.jpg" width="50%">
-
+        <button class="accordion">Section 2</button>
+        <div class="panel">
         <p>Në vitin 995, mbreti Olav Tryggvason ndërtoi kishën e parë në Norvegji në Moster (Bømlo), dhe filloi
             konvertimin e
             norvegjezëve në fenë e krishterë. Pas betejës së Stiklestad-it, në vitin 1030, feja e krishterë u bë fe
@@ -49,9 +70,29 @@
             Sverreætten
             arriti të shtrijë pushtetin e tij në të gjithë Norvegjinë. Mbretëria e Norvegjisë arriti kulmin e fuqisë së
             saj (në
-            aspektin ushtarak, ekonomik dhe kulturor) gjatë sundimit të mbretit Håkon Håkonssen.</p>
+            aspektin ushtarak, ekonomik dhe kulturor) gjatë sundimit të mbretit Håkon Håkonssen.</p>  
+            </div>
+            <script>
+                var acc = document.getElementsByClassName("accordion2");
+                var i;
+                
+                for (i = 0; i < acc.length; i++) {
+                  acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                      panel.style.display = "none";
+                    } else {
+                      panel.style.display = "block";
+                    }
+                  });
+                }
+                </script> 
+                </div>
         <img src="img/Olav.jpg" width="275px"> <img src="img/view.jpg" width="660px" style="margin-left:7px">
-        <h2>Familja Mbretërore</h2>
+        
+        <button class="accordion">Familja Mbretërore</button>
+        <div class="panel">
         <p> Familja mbretërore norvegjeze u bashkua me familjen mbretërore suedeze në vitin 1319 dhe më pas me atë
             daneze në
             vitin 1380. Anëtari i fundit i familjes mbretërore norvegjeze me të drejtë trashëgimi të fronit të
@@ -73,9 +114,29 @@
             veriut i
             përkisnin Norvegjisë, të gjitha luftërat e tjera përfunduan me fitoren e Suedisë dhe humbje të territoreve
             norvegjeze: Bohuslän, Jämtland dhe Härjedalen</p>
+          </div>
+          <script>
+              var acc = document.getElementsByClassName("accordiona");
+              var i;
+              
+              for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                  this.classList.toggle("active");
+                  var panel = this.nextElementSibling;
+                  if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                  } else {
+                    panel.style.display = "block";
+                  }
+                });
+              }
+              </script> 
+              </div>
         <img src="img/family-royal-norway.jpg" width="39%">
         <img src="img/norway-royal-family.jpg" width="42%" style="margin-left: 5px;">
-        <h3>Mbretëria Danezo-Norvegjeze</h3>
+       
+        <button class="accordion">Mbretëria Danezo-Norvegjeze</button>
+        <div class="panel"> 
         <p> Mbretëria Danezo-Norvegjeze ishte aleate e Napoleon Bonoparten ndërsa Mbretëria e Suedisë lidhi aleancë me
             Anglinë
             dhe Prusinë. Mbas disfatës së Napoleon Bonopartit, në paqen e Kiel-it në vitin 1814, Norvegjia iu dha nën
@@ -104,11 +165,27 @@
             Danimarkës,
             shtëpisë princërore të Gjermanisë veriore Schleswig-Holstein-Sonderburg-Glücksburg (një nga degët e shtëpisë
             mbretërore Oldenburg).</p>
+          </div>
+          <script>
+              var acc = document.getElementsByClassName("accordion.");
+              var i;
+              
+              for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                  this.classList.toggle("active");
+                  var panel = this.nextElementSibling;
+                  if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                  } else {
+                    panel.style.display = "block";
+                  }
+                });
+              }
+              </script> 
+              </div>
         <img src="img/danemark-norway-royal-family.jpg" width="95%">
-
-
-
-        <h4>Norvegjia si Shtet</h4>
+        <button class="accordion">Norvegjia si Shtet</button>
+        <div class="panel"> 
         <p> Norvegjia ishte shtet asnjanës në Luftën e Parë Botërore. Qeveria norvegjeze mendoi të ndiqte parimin e
             neutralitetit edhe gjatë Luftës së Dytë Botërore. Me 9 prill 1940, Gjermania sulmoi Danimarkën dhe
             Norvegjinë. Mbas
@@ -123,8 +200,27 @@
             vitin 1945. Norvegjezët kanë votuar 2 herë në referendum për tu bërë pjesë e Bashkimit Evropian, në 1974 dhe
             1994.
             Në të dy referendumet, shumica e votuesve u shpreh kundër pranimit të Norvegjisë në Bashkimin Evropian.</p>
+          </div>
+          <script>
+              var acc = document.getElementsByClassName("accordion?");
+              var i;
+              
+              for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                  this.classList.toggle("active");
+                  var panel = this.nextElementSibling;
+                  if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                  } else {
+                    panel.style.display = "block";
+                  }
+                });
+              }
+              </script> 
+              </div>
         <img src="img/-norway-rich-ski-nation.jpg" width="500px">
-        <h2>Historia e Norvegjisë</h2>
+        <button class="accordion">Historia e Norvegjisë</button>
+        <div class="panel"> 
         <p>"Historia e Norvegjisë. Nga epoka e akullnajave deri në ditët tona" është shkruar për të gjithë ata që duan
             të
             mësojnë më shumë për historinë e këtij vendi dhe popullit të tij. Ky vëllim, i pasur me ilustrime, shërben
@@ -134,6 +230,24 @@
             nisi të jetojë në këtë vend, thuajse 12 000 vjet më parë, e deri në ditët tona. Kombinimi i tekstit me
             harta,
             ilu-strime dhe diçitura i ofron lexuesit larmi, njohuri</p>
+          </div>
+          <script>
+              var acc = document.getElementsByClassName("accordion");
+              var i;
+              
+              for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                  this.classList.toggle("active");
+                  var panel = this.nextElementSibling;
+                  if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                  } else {
+                    panel.style.display = "block";
+                  }
+                });
+              }
+              </script> 
+              </div>
         <img src="img/75994.jpg" width="500px">
         <h1>3D Box</h1>
         <div class="flip-box">
