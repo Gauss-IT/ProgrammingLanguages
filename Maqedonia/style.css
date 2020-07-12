@@ -92,3 +92,15 @@ body
   background-color: white;
   overflow: hidden;
 }
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
