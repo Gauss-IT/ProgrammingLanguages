@@ -1,0 +1,115 @@
+body
+{ 
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+/* Navbar related css*/
+.navbar > ul{
+    list-style:none;
+    overflow:hidden;
+    background-color: #4B8E54;
+    color:white;
+    padding:0%;
+    margin-top: 4px;
+    margin-block: 0em;
+}    
+
+.navbar > ul > li{
+   float:left;
+   border-right:solid 4px white;
+   padding: 7px;
+   text-align: center;
+   min-width: 7%;
+}
+.navbar > ul > li:hover
+{
+    background-color: rgb(152, 204, 152);
+}
+
+.navbar > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Page list related css*/
+.pageList > ul{
+    list-style:none;
+    overflow:hidden;
+    background-color: rgb(28, 37, 85);
+    color:white;
+    padding:0%;
+    margin: 0%;
+    width: 100px;
+   margin-block: 0em;
+}    
+
+.pageList > ul > li{
+   border-bottom:solid 2px white;
+   padding: 7px;
+   text-align: center;
+   min-width: 7%;
+}
+.pageList > ul > li:hover
+{
+    background-color: rgb(152, 204, 152);
+}
+
+.pageList > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    width: 100%;
+}
+
+img.content{
+    max-width: 45%;
+    max-height: 100%;
+    padding: 2%;
+}
+
+img.thumbnail{
+    max-width: 20%;
+    max-height: 100%;
+    padding: 2%;
+} 
+
+.hyrje {
+    border: 2px rgb(16, 143, 54) solid;
+    background: rgb(251, 255, 250);
+    padding: 5px;
+    margin: 5px 0px;
+} 
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .flex-box {
+    padding: 25px;
+    margin: 20px;
+    width: 20%;
+    border: solid 2px rgb(28, 37, 85);
+    background-color: rgb(166, 216, 172);
+    border-radius: 15px;
+  }
+
+  .flex-box:hover{
+    padding: 20px;
+    margin: 25px;
+    border: solid 2px rgb(28, 65, 75);
+    background-color:  rgb(152, 204, 152);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px gray ;
+  }
+  .flex-box > a {background-color: black;
+    text-decoration: none;
+    color: black;}
+    .pre{
+    padding: 10px;    
+    margin: 5px;
+    }
