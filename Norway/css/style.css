@@ -362,4 +362,7 @@ body{  background-color: rgb(198, 212, 224);
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
-
+c
+.container{
+  width: 400px;
+}
