@@ -1,0 +1,40 @@
+.container {
+  width: 330px;
+  height: 380px;
+  margin: auto;
+  margin-top: 130px;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.row {
+  height: 100px;
+}
+
+.col {
+  height: 100px;
+  width: 100px;
+  float: left;
+  font-size: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.col:hover {
+    background-color: rgb(173, 173, 173);
+}
+
+.border-b {
+  border-bottom: 10px solid black;
+}
+
+.border-r {
+  border-right: 10px solid black;
+}
+
+.winner {
+    color: rgb(255, 0, 0);
+}
