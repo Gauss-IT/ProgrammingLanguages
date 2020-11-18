@@ -1,15 +1,14 @@
 // Constants
-const GAME_WIDTH = 600;
-const GAME_HEIGHT = 400;
+const GAME_WIDTH = 1320;
+const GAME_HEIGHT = 600;
 const KEY_UP = 38;
 const KEY_DOWN = 40;
-const PADDLE_WIDTH = 10;
+const PADDLE_WIDTH = 20;
 const PADDLE_HEIGHT = 50;
 const BACKGROUND_COLOUR = "#000000";
 const PLAYER_COLOUR = "#FFFFFF";
 const COMPUTER_COLOUR = "#FF0000"
 const BALL_COLOUR = "#FFFFFF";
-
 // Get the middle y-value to draw the paddle using the relationship between
 // the height of the canvas and the height of the paddle
 const MIDDLE_Y = (GAME_HEIGHT-PADDLE_HEIGHT)/2

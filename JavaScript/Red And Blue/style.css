@@ -1,0 +1,15 @@
+.featuredBtn.active {
+  background-color: #0004ff;
+  color: white;
+}
+
+.featuredBtn {
+  width: 250px;
+  height: 50px;
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #ff0000;
+  border: none;
+  letter-spacing: 2px;
+  outline: none;
+}
